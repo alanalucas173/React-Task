@@ -12,6 +12,7 @@ function App(){
     setTasks(tasks.filter((_,index) => index !==indexToDelete));
   }
 
+  
   return (
     <div className = 'App'> 
       <h1>Task Manager</h1>
